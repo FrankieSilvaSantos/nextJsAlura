@@ -1,0 +1,91 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[3]!./app/styles.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************/
+.styles_imgHome__BcizA {
+    position: relative;
+    margin: 2em 0 0 3em;
+}
+
+.styles_spanHome__YZSGL {
+  
+    background-color: rgba(161, 81, 236, 0.822);
+    color: rgb(227, 206, 231);
+    padding: 10px;
+    border-radius: 20px;
+    width: auto;
+    box-sizing: border-box;
+}
+
+.styles_pHome__gF98A {
+   position: absolute;
+   box-sizing: border-box;
+  
+   min-width: 10%;
+   top: 18em;
+   left: 22.5em;
+    color: rgb(215, 149, 228);;
+}
+
+.styles_tituloHome__OYL33 {
+
+    margin: 3em 0 0 1em;
+
+}
+
+.styles_containerHome__jRfQf {
+    
+    display: grid;
+    grid-template-columns: 35% 1fr;
+    grid-gap: 5em;
+    gap: 5em;
+    margin-top: 5em;
+    margin-left: 20em;
+
+}
+
+.styles_imgHome2__tEwOV {
+    width: 700px;
+    border-radius: 20px;
+
+}
+
+.styles_pHome2__iZkR4 {
+    margin: 1em 0 0 2.5em;
+}
+
+.styles_inputHome__hXB9N {
+
+    margin: 3em 0 0 3em;
+  
+
+
+}
+
+.styles_inputHome__hXB9N:focus, .styles_inputHome__hXB9N:active {
+
+   outline: solid 2px solid rgb(91, 57, 212)  !important ;
+   box-shadow: 3px 3px 3px rgb(91, 57, 212) !important;
+   border: 2px solid black !important;
+  
+
+
+}
+
+.styles_divInput__1MusY {
+
+    display: inline-flex;
+    gap: 1em;
+
+}
+
+.styles_buttonHome__ABp71 {
+
+    height: 2.5em;
+    margin-top: 3em;
+    background-color: rgb(91, 57, 212) !important;
+    outline: 2px solid black !important;
+    border: 2px solid black !important;
+}
+
+
+
