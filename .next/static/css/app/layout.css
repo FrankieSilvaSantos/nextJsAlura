@@ -1,0 +1,24 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[3]!./app/header/Header.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************/
+.Header_linkPositioning__V_5Nw {
+
+    display: flex;
+    justify-content: end;
+   
+}
+
+.Header_anchorStyle__XQ5dh:hover,.Header_anchorStyle__XQ5dh:active,.Header_anchorStyle__XQ5dh:focus,.Header_anchorStyle__XQ5dh:visited {
+
+    border-bottom:2px solid rgba(161, 81, 236, 0.822);
+    font-weight: bold;
+
+}
+
+.Header_containerNav__mnD3R {
+    border-bottom:2px solid black;
+}
+
+
+
+
