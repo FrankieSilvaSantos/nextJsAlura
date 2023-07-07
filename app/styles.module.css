@@ -1,0 +1,86 @@
+.imgHome {
+    position: relative;
+    margin: 2em 0 0 3em;
+}
+
+.spanHome {
+  
+    background-color: rgba(161, 81, 236, 0.822);
+    color: rgb(227, 206, 231);
+    padding: 10px;
+    border-radius: 20px;
+    width: auto;
+    box-sizing: border-box;
+}
+
+.pHome {
+   position: absolute;
+   box-sizing: border-box;
+  
+   min-width: 10%;
+   top: 18em;
+   left: 22.5em;
+    color: rgb(215, 149, 228);;
+}
+
+.tituloHome {
+
+    margin: 3em 0 0 1em;
+
+}
+
+.containerHome {
+    
+    display: grid;
+    grid-template-columns: 35% 1fr;
+    gap: 5em;
+    margin-top: 5em;
+    margin-left: 20em;
+
+}
+
+.imgHome2 {
+    width: 700px;
+    border-radius: 20px;
+
+}
+
+.pHome2 {
+    margin: 1em 0 0 2.5em;
+}
+
+.inputHome {
+
+    margin: 3em 0 0 3em;
+  
+
+
+}
+
+.inputHome:focus, .inputHome:active {
+
+   outline: solid 2px solid rgb(91, 57, 212)  !important ;
+   box-shadow: 3px 3px 3px rgb(91, 57, 212) !important;
+   border: 2px solid black !important;
+  
+
+
+}
+
+.divInput {
+
+    display: inline-flex;
+    gap: 1em;
+
+}
+
+.buttonHome {
+
+    height: 2.5em;
+    margin-top: 3em;
+    background-color: rgb(91, 57, 212) !important;
+    outline: 2px solid black !important;
+    border: 2px solid black !important;
+}
+
+

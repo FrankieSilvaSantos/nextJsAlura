@@ -1,0 +1,20 @@
+.linkPositioning {
+
+    display: flex;
+    justify-content: end;
+   
+}
+
+.anchorStyle:hover,.anchorStyle:active,.anchorStyle:focus,.anchorStyle:visited {
+
+    border-bottom:2px solid rgba(161, 81, 236, 0.822);
+    font-weight: bold;
+
+}
+
+.containerNav {
+    border-bottom:2px solid black;
+}
+
+
+
