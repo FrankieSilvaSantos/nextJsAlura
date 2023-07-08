@@ -3,14 +3,24 @@
     color: white;
     background-color: black;
     padding: 3em 0 3em 0;
+    width: auto !important;
+    height: auto !important;
+   
 }
 
 .footerStyle {
 
-    position:absolute;
+    position:relative;
     bottom:0;
     display:block;  
     width:100%;
- 
+    top: 3em;
+  
+    
+    
+  
+   
 }
+
+
 

@@ -2,7 +2,7 @@
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[3]!./app/styles.module.css ***!
   \***************************************************************************************************************************************************************************************************************************************************************/
 .styles_imgHome__BcizA {
-    position: relative;
+    
     margin: 2em 0 0 3em;
 }
 
@@ -16,19 +16,27 @@
     box-sizing: border-box;
 }
 
+.styles_containerHome2__IWw2U {
+
+    position: relative;
+
+}
+
 .styles_pHome__gF98A {
-   position: absolute;
-   box-sizing: border-box;
-  
-   min-width: 10%;
-   top: 18em;
-   left: 22.5em;
+   position: relative; 
+   
+    width: 100%;
+    top: 5em;
+   left: 2.5em; 
+
     color: rgb(215, 149, 228);;
+    
 }
 
 .styles_tituloHome__OYL33 {
 
-    margin: 3em 0 0 1em;
+    margin: 2.5em 0 0 1em;
+    
 
 }
 
@@ -36,20 +44,24 @@
     
     display: grid;
     grid-template-columns: 35% 1fr;
-    grid-gap: 5em;
-    gap: 5em;
+    grid-gap: 7em;
+    gap: 7em;
     margin-top: 5em;
     margin-left: 20em;
+    width: auto !important;
+    height: auto !important;
+    padding: auto !important;
 
 }
 
 .styles_imgHome2__tEwOV {
     width: 700px;
     border-radius: 20px;
-
+    
 }
 
 .styles_pHome2__iZkR4 {
+    box-sizing: border-box;
     margin: 1em 0 0 2.5em;
 }
 

@@ -6,7 +6,7 @@ export default function Home() {
 
         <>
             <section className={`${styles.containerHome}`}>
-                <section>
+                <section className={`${styles.containerHome2}`}>
                     <img className={`${styles.imgHome}`} src="/img/alura-logo.svg"></img>
 
 

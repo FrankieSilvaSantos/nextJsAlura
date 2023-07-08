@@ -1,5 +1,5 @@
 .imgHome {
-    position: relative;
+    
     margin: 2em 0 0 3em;
 }
 
@@ -13,19 +13,27 @@
     box-sizing: border-box;
 }
 
+.containerHome2 {
+
+    position: relative;
+
+}
+
 .pHome {
-   position: absolute;
-   box-sizing: border-box;
-  
-   min-width: 10%;
-   top: 18em;
-   left: 22.5em;
+   position: relative; 
+   
+    width: 100%;
+    top: 5em;
+   left: 2.5em; 
+
     color: rgb(215, 149, 228);;
+    
 }
 
 .tituloHome {
 
-    margin: 3em 0 0 1em;
+    margin: 2.5em 0 0 1em;
+    
 
 }
 
@@ -33,19 +41,23 @@
     
     display: grid;
     grid-template-columns: 35% 1fr;
-    gap: 5em;
+    gap: 7em;
     margin-top: 5em;
     margin-left: 20em;
+    width: auto !important;
+    height: auto !important;
+    padding: auto !important;
 
 }
 
 .imgHome2 {
     width: 700px;
     border-radius: 20px;
-
+    
 }
 
 .pHome2 {
+    box-sizing: border-box;
     margin: 1em 0 0 2.5em;
 }
 
