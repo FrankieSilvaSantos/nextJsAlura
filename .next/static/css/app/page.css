@@ -43,11 +43,12 @@
 .styles_containerHome__jRfQf {
     
     display: grid;
-    grid-template-columns: 35% 1fr;
+    grid-template-columns: 30% 30%;
     grid-gap: 7em;
     gap: 7em;
     margin-top: 5em;
-    margin-left: 20em;
+     margin-left: 20em; 
+    min-width: auto;
     width: auto !important;
     height: auto !important;
     padding: auto !important;
@@ -55,7 +56,8 @@
 }
 
 .styles_imgHome2__tEwOV {
-    width: 700px;
+    width: 150%;
+    min-width: auto ;
     border-radius: 20px;
     
 }
@@ -67,8 +69,8 @@
 
 .styles_inputHome__hXB9N {
 
-    margin: 3em 0 0 3em;
-  
+    margin: 3em 0 0 2.5em;
+    width: auto !important;
 
 
 }
@@ -87,6 +89,8 @@
 
     display: inline-flex;
     gap: 1em;
+
+    
 
 }
 
