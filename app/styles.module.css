@@ -79,8 +79,23 @@
     height: 2.5em;
     margin-top: 3em;
     background-color: rgb(91, 57, 212) !important;
+    outline: none black !important;
+    border: none black !important;
+    box-shadow: none !important;
+}
+
+.buttonHome:hover,.buttonHome:active,.buttonHome:focus {
+
+    height: 2.5em;
+    margin-top: 3em;
+    background-color: rgb(91, 57, 212) !important;
     outline: 2px solid black !important;
     border: 2px solid black !important;
+    box-shadow: 5px 5px 5px black !important;
 }
+
+
+
+
 
 

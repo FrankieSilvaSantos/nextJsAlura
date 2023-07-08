@@ -1,4 +1,6 @@
 import Header from "./header/page"
+import Footer from "./footer/page"
+import "./global.css"
 
 export default function RootLayout({ children }) {
     return (
@@ -36,6 +38,8 @@ export default function RootLayout({ children }) {
         <Header></Header>
         
         <main>{children}</main>
+
+        <Footer></Footer>
 
         
 

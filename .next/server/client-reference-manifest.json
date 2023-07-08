@@ -155,6 +155,22 @@
       ],
       "async": false
     },
+    "C:\\nextjs\\app\\footer\\Footer.module.css": {
+      "id": "(app-client)/./app/footer/Footer.module.css",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\nextjs\\app\\global.css": {
+      "id": "(app-client)/./app/global.css",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
     "C:\\nextjs\\app\\styles.module.css": {
       "id": "(app-client)/./app/styles.module.css",
       "name": "*",
@@ -170,6 +186,7 @@
     ],
     "C:\\nextjs\\app\\page": [
       "static/css/app/page.css"
-    ]
+    ],
+    "C:\\nextjs\\app\\faq\\page": []
   }
 }

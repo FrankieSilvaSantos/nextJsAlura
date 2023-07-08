@@ -1,0 +1,16 @@
+.linkFooter {
+
+    color: white;
+    background-color: black;
+    padding: 3em 0 3em 0;
+}
+
+.footerStyle {
+
+    position:absolute;
+    bottom:0;
+    display:block;  
+    width:100%;
+ 
+}
+
