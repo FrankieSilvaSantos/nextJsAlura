@@ -47,6 +47,14 @@
         "chunks": [],
         "async": false
       }
+    },
+    "(app-client)/./app/faq/page.js": {
+      "*": {
+        "id": "(sc_client)/./app/faq/page.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
     }
   },
   "edgeSSRModuleMapping": {},
@@ -178,6 +186,14 @@
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
+    },
+    "C:\\nextjs\\app\\faq\\page.js": {
+      "id": "(app-client)/./app/faq/page.js",
+      "name": "*",
+      "chunks": [
+        "app/faq/page:static/chunks/app/faq/page.js"
+      ],
+      "async": false
     }
   },
   "entryCSSFiles": {
@@ -187,6 +203,8 @@
     "C:\\nextjs\\app\\page": [
       "static/css/app/page.css"
     ],
-    "C:\\nextjs\\app\\faq\\page": []
+    "C:\\nextjs\\app\\faq\\page": [
+      "static/css/app/faq/page.css"
+    ]
   }
 }
