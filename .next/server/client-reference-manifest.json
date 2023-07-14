@@ -40,17 +40,17 @@
         "async": false
       }
     },
-    "(app-client)/./node_modules/next/dist/client/script.js": {
+    "(app-client)/./node_modules/next/dist/client/link.js": {
       "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/script.js",
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./node_modules/next/dist/client/link.js": {
+    "(app-client)/./node_modules/next/dist/client/script.js": {
       "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "id": "(sc_client)/./node_modules/next/dist/client/script.js",
         "name": "*",
         "chunks": [],
         "async": false
@@ -147,6 +147,46 @@
       ],
       "async": false
     },
+    "C:\\nextjs\\node_modules\\next\\dist\\client\\link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\nextjs\\node_modules\\next\\dist\\esm\\client\\link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\nextjs\\app\\header\\Header.module.css": {
+      "id": "(app-client)/./app/header/Header.module.css",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\nextjs\\app\\footer\\Footer.module.css": {
+      "id": "(app-client)/./app/footer/Footer.module.css",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\nextjs\\app\\global.css": {
+      "id": "(app-client)/./app/global.css",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
     "C:\\nextjs\\node_modules\\next\\dist\\client\\script.js": {
       "id": "(app-client)/./node_modules/next/dist/client/script.js",
       "name": "*",
@@ -171,46 +211,6 @@
       ],
       "async": false
     },
-    "C:\\nextjs\\node_modules\\next\\dist\\client\\link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\nextjs\\node_modules\\next\\dist\\esm\\client\\link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\nextjs\\app\\global.css": {
-      "id": "(app-client)/./app/global.css",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\nextjs\\app\\header\\Header.module.css": {
-      "id": "(app-client)/./app/header/Header.module.css",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\nextjs\\app\\footer\\Footer.module.css": {
-      "id": "(app-client)/./app/footer/Footer.module.css",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
     "C:\\nextjs\\app\\faq\\page.js": {
       "id": "(app-client)/./app/faq/page.js",
       "name": "*",
@@ -221,11 +221,11 @@
     }
   },
   "entryCSSFiles": {
-    "C:\\nextjs\\app\\page": [
-      "static/css/app/page.css"
-    ],
     "C:\\nextjs\\app\\layout": [
       "static/css/app/layout.css"
+    ],
+    "C:\\nextjs\\app\\page": [
+      "static/css/app/page.css"
     ],
     "C:\\nextjs\\app\\faq\\page": [
       "static/css/app/faq/page.css"
