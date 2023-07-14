@@ -1,11 +1,26 @@
 import styles from './styles.module.css'
-
+import Script from 'next/script'
 
 
 export default function Home() {
     return (
 
         <>
+
+<div className="container">
+      <Script src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID" />
+      <Script id="google-analytics">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+ 
+          gtag('config', 'GA_MEASUREMENT_ID');
+        `}
+      </Script>
+    </div>
+
+    
             <section className={`${styles.containerHome}`}>
                 <section className={`${styles.containerHome2}`}>
                     <img className={`${styles.imgHome}`} src="/img/alura-logo.svg"></img>
